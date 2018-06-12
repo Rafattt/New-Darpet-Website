@@ -1,0 +1,233 @@
+@media screen and (max-width: 750px) {
+    .front-page-ani {
+       display:none;
+    }
+  }
+
+body {
+   
+}
+
+
+.container-fluid {
+   
+ }
+
+
+ /*header starts here */
+
+ #header {
+     background-color: black;
+     margin-left: -15px;
+     margin-right: -15px;
+ }
+
+#top-menu {
+    background-color: black;
+    
+    min-height: 31px;
+}
+
+.navbar {
+    line-height: 20px;
+}
+
+.nav-item {
+    color: black;
+}
+
+.nav-link {
+    color: black;
+}
+
+#top-menu-elements {
+    background-color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#mail-us {
+    color:white;
+}
+
+.top-menu-item-left {
+    color: white;
+    
+}
+
+.top-menu-item-right {
+    color: white;
+   
+}
+
+.nav-link {
+    color:black!important;
+}
+
+/*header starts here */
+
+#main-slideshow {
+    background-color: black;
+    height:100%!important;
+    
+}
+
+#header-slide {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+    z-index:-1;
+    transition: opacity .5s ease-in-out;
+}
+
+#slide-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:1152px;
+}
+/* SLIDESHOW CONTROLS, JAVASCRIPT TO DO
+.slideshow-controls {
+    height: 120px;
+    position:relative;
+    margin-top:-350px;
+    z-index:2;
+}
+
+.slideshow-controls:hover {
+    cursor:pointer;
+}
+
+#slideshow-right-button {
+    float:right;  
+    opacity:0;
+    transition: 1s;
+}
+
+#slideshow-left-button {
+    float:left;  
+    opacity:0;
+    transition: 1s;
+}
+*/
+
+.title {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+#main-page-content {
+    font-family: 'Lato', sans-serif;
+    font-size:1em;
+    text-align:center;
+}
+
+.main-page-categories {
+    height:auto;
+    background-color: #282828;
+    
+}
+
+#interior-title {
+    color: white;
+     text-align:center;
+}
+
+.main-page-text {
+    text-align:center;
+
+}
+
+#main-page-interior-text {
+    color: white;
+}
+
+.front-page-ani {
+    margin-top:-400px;
+}
+
+.front-carousel {
+    padding: 0px !important;
+    margin: 0px !important;
+    max-width:100%;
+    height:auto;
+    transition: 0.3s;
+    border: 1px solid white;
+    
+}
+
+.front-carousel:hover {
+
+    cursor:pointer;
+    
+}
+
+#exterior-doors {
+    background-color: white;
+}
+
+#main-page-exterior-text {
+    color: black;
+  
+}
+
+.main-banners {
+    height:100%!important;
+
+}
+
+
+.carousel-title-box {
+    width: 100%;
+    height:100%;
+    background-color: white;
+    opacity: 0.7;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+
+.carousel-title-box {
+    display: none;
+    transition: .5s ease-in-out;
+}
+
+.carousel-title {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 34px;
+    line-height:40px;
+    padding-top:100px;
+    transition: .5s ease-in-out;
+    color:black;
+    font-weight: bold;
+}
+
+#footer {
+    background-color: rgb(40,40,40);
+    height: 50px;
+}
+
+#credits {
+    color: white;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+
+.carousel-1 {
+    display:flex;
+   
+}
+
+.carousel-2 {
+    display:flex;
+   
+}
+
+.btn-front {
+    padding-bottom:10px;
+}
+
+
