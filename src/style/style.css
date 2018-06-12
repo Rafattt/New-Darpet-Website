@@ -10,6 +10,15 @@ body {
 }
 
 
+
+a:link {
+    text-decoration: none;
+}
+
+.white-btn {
+    color: black;
+}
+
 .container-fluid {
    background-color: #ddd;
  }
