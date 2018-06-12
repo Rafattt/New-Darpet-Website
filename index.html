@@ -9,6 +9,7 @@
   <meta name="author" content="Rafal Kmiecik">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <link rel="stylesheet" href="src/style/bootstrap.css">
+  <link rel="stylesheet" href="src/style/animate.css">
   <link rel="stylesheet" href="src/style/style.css">
 
 
@@ -104,13 +105,15 @@
 
     <!--MAIN CONTENT-->
     <div class="row main">
-      <div class="col-md-8 offset-2">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
         <h1 class="title">Welcome to Darpet Windows, Doors and Trim Chicago</h1>
         <p id="main-page-content">You want lasting luxury and uncommon artistry.
            You want the best. This applies especially to your home.
             It should reflect your personality and accomplishments, while also pleasing your eye at every turn.
              That’s why every element needs to be of the highest quality— the kind of remarkable quality and craftsmanship is what sets Darpet apart.</p>
       </div>
+      <div class="col-md-2"></div>
     </div>
     
     <!--MAIN CONTENT ENDS-->
@@ -132,13 +135,15 @@
                   Nobody has more interior doors in stock than we do !
                 </p>
                 <div class="row btn-front">
-                  <button type="button" class="btn btn-light col-md-2 offset-5">View More</button>
+                  <div class="col-md-5"></div>
+                  <button type="button" class="btn btn-light col-md-2">View More</button>
+                  <div class="col-md-5"></div>
                 </div>
                
           </div>
         
         <div class="col-md-3">
-          <img class="front-page-ani"  src="src/images/int2.png">
+          <img class="front-page-ani wow fadeInRight"  data-wow-delay="1s" data-wow-duration="2s" src="src/images/int2.png">
         </div>
         <div class="col-md-1">
               
@@ -229,7 +234,7 @@
               
         </div>
             <div class="col-md-3">
-              <img class="front-page-ani"  src="src/images/ext.png">
+              <img class="front-page-ani wow fadeInLeft" data-wow-delay="1s" data-wow-duration="2s" src="src/images/ext.png">
             </div>
             <div class="col-md-7">
                 <h1 class="title" id="exterior-title">Exterior Doors</h1>
@@ -238,7 +243,9 @@
                     Nobody has more interior doors in stock than we do !
                   </p>
                   <div class="row btn-front">
-                    <button type="button" class="btn btn-dark col-md-2 offset-5">View More</button>
+                      <div class="col-md-5"></div>
+                    <button type="button" class="btn btn-dark col-md-2">View More</button>
+                    <div class="col-md-5"></div>
                   </div>
             </div>
             <div class="col-md-1">
@@ -321,12 +328,14 @@
                     From traditional baseboards to contemporary crown molding we have it all.
                     </p>
                     <div class="row btn-front">
-                      <button type="button" class="btn btn-light col-md-2 offset-5">View More</button>
+                        <div class="col-md-5"></div>
+                      <button type="button" class="btn btn-light col-md-2">View More</button>
+                      <div class="col-md-5"></div>
                     </div>
               </div>
             
             <div class="col-md-3">
-              <img class="front-page-ani"  src="src/images/trim21.png">
+              <img class="front-page-ani wow fadeInRight"  data-wow-delay="1s" data-wow-duration="2s"   src="src/images/trim21.png">
           
             </div>
             <div class="col-md-1">
@@ -402,7 +411,7 @@
                   
             </div>
                 <div class="col-md-3">
-                  <img class="front-page-ani"  src="src/images/wind1.png">
+                  <img class="front-page-ani wow fadeInLeft" data-wow-delay="1s" data-wow-duration="2s"  src="src/images/wind1.png">
                 </div>
                 <div class="col-md-7">
                     <h1 class="title" id="exterior-title">Windows</h1>
@@ -411,7 +420,9 @@
                        Each one is sure to enhance the luxury of your home. Our experience staff is here to guide you every step of the way. 
                       </p>
                       <div class="row btn-front">
-                        <button type="button" class="btn btn-dark col-md-2 offset-5">View More</button>
+                        <div class="col-md-5"></div>
+                          <button type="button" class="btn btn-dark col-md-2">View More</button>
+                        <div class="col-md-5"></div>
                       </div>
                 </div>
                 <div class="col-md-1">
@@ -440,6 +451,9 @@
   <script src="src/js/bootstrap.min.js"></script>
   <script src="src/js/slideshow.js"></script>
   <script src="src/js/carousel.js"></script>
+  <script src="src/js/wow.min.js"></script>
+  <script src="src/js/script.js"></script>
+  
   
 </body>
 </html>
