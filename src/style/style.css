@@ -11,7 +11,7 @@ body {
 
 
 .container-fluid {
-   
+   background-color: #ddd;
  }
 
 
@@ -113,6 +113,9 @@ body {
 }
 */
 
+.main {
+    background-color: white;
+}
 .title {
     text-align: center;
     font-family: 'Lato', sans-serif;
@@ -122,6 +125,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-size:1em;
     text-align:center;
+    
 }
 
 .main-page-categories {
@@ -229,6 +233,40 @@ body {
 
 .btn-front {
     padding-bottom:10px;
+}
+
+/*SUB PAGES*/
+
+.sub-title-container {
+    background-color: rgb(40,40,40);
+}
+
+.sub-title {
+    color:white;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.products-catalog {
+    background-color: #ddd;
+    width:100%;
+}
+
+.catalog-des {
+    font-family: 'Lato', sans-serif;
+    font-size:20px;
+    text-align: center;
+    color: black;
+}
+
+.cat-stock {
+    font-family: 'Lato', sans-serif;
+    font-size:22px;
+    text-align: center;
+    color: red;
+    font-weight: bold;
 }
 
 
