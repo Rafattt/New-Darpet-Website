@@ -259,6 +259,7 @@ a:link {
 }
 
 .products-catalog {
+    margin-top:10px;
     background-color: #ddd;
     width:100%;
 }
@@ -276,6 +277,16 @@ a:link {
     text-align: center;
     color: red;
     font-weight: bold;
+}
+
+.cat-pic {
+    transition: transform .2s;
+    margin-bottom: 5px;
+}
+
+.cat-pic:hover {
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
 
