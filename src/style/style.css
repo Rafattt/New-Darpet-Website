@@ -172,9 +172,7 @@ a:link {
 }
 
 .front-carousel:hover {
-
     cursor:pointer;
-    
 }
 
 #exterior-doors {
@@ -183,12 +181,10 @@ a:link {
 
 #main-page-exterior-text {
     color: black;
-  
 }
 
 .main-banners {
     height:100%!important;
-
 }
 
 
@@ -288,5 +284,210 @@ a:link {
     transform: scale(1.05);
     cursor: pointer;
 }
+/*/SUB PAGES*/
+
+/*INTERIOR DOORS PRODUCT*/
+
+.paralax-interior {
+    /* The image used */
+    background-image: url("/src/images/int-back.png");
+    background-color: black;
+
+    /* Set a specific height */
+    height: auto;; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inter-desc-container {
+    height: auto;
+    margin-top:130px;
+    margin-bottom:60px;
+    background-color: rgba(255,255,255,0.7);
+
+}
+
+.inter-prod-title {
+    text-align: center;
+    font-family: 'Cantata One', serif;
+    font-size: 34px;
+    font-weight: bold;
+    padding-top:10px;
+}
+
+.inter-prod-stock {
+    text-align: center;
+    font-family: 'Cantata One', serif;
+    color: red;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.inter-prod-subtit {
+    text-align: center;
+    font-family: 'Cantata One', serif;
+    font-style: italic;
+    font-size: 28px;
+}
+
+.inter-prod-desc {
+    text-align: center;
+    font-family: 'Cantata One', serif;
+    font-size:18px;
+}
+
+.spec-btn {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.core-avail {
+    background-color:white;
+}
+
+.core-avail-title {
+    text-align: center;
+    font-family: 'Cantata One', serif;
+    font-size:28px;
+}
+
+.prod-image {
+    max-width:100%;
+}
+
+.core-avail-desc {
+    font-family: 'Cantata One', serif;
+    font-size:14px;
+    margin-bottom:5px;
+}
+
+.door-options {
+    background-color: #23282d;
+}
+
+.opt-title {
+    color:white;
+    font-family: 'Cantata One', serif;
+}
+
+.opt-desc {
+    color:white;
+    font-family: 'Cantata One', serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/*----- TABS -----*/
+
+.tabs-container {
+    background: #45484d; /* Old browsers */
+    background: -moz-linear-gradient(top, #45484d 0%, #000000 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#45484d), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #45484d 0%,#000000 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #45484d 0%,#000000 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #45484d 0%,#000000 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #45484d 0%,#000000 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+    copy
+}
+
+.tabs {
+	width:100%;
+	display:inline-block;
+}
+
+/*----- Tab Links -----*/
+/* Clearfix */
+	.tab-links:after {
+	display:block;
+	clear:both;
+	content:'';
+}
+
+.tab-links li {
+	margin:0px 5px;
+	float:left;
+	list-style:none;
+}
+
+.tab-links a {
+	padding:9px 15px;
+	display:inline-block;
+    border-radius:5px 5px 0px 0px;
+    margin-top:10px;
+    margin-bottom:0px;
+	background:rgb(162, 173, 180);
+	font-size:16px;
+	font-weight:600;
+	color:#4c4c4c;
+	transition:all linear 0.15s;
+}
+
+.tab-links a:hover {
+	background:#fff;
+	text-decoration:none;
+}
+
+li.active a, li.active a:hover {
+	background:#fff;
+	color:#4c4c4c;
+}
+
+/*----- Content of Tabs -----*/
+.tab-content {
+	padding:15px;
+    border-radius:3px;
+    margin-top:-16px;
+	box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+	background:#fff;
+}
+
+.tab {
+	display:none;
+}
+
+.tab.active {
+	display:block;
+}
+/*----- /TABS -----*/
+
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    max-width:100%;
+}
+
+.center {
+    margin: 0 auto;
+    float: none;
+
+}
+
+.related-products-title {
+    color: white;
+    background-color: #000000;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size:1.5em;
+}
+
+.gallery-image {
+    transition: transform .2s; 
+    padding: 10px 10px 10px 10px;
+    max-height:200px;
+    height:200px;
+}
+
+.gallery-image:hover {
+    transform: scale(1.1);
+    cursor:pointer;
+}
 
 
+.modal-dialog {width:600px;}
+.thumbnail {margin-bottom:6px;}
