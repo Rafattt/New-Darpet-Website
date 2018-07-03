@@ -5,11 +5,6 @@
     
   }
 
-body {
-   
-}
-
-
 
 a:link {
     text-decoration: none;
@@ -34,12 +29,12 @@ a:link {
 
 #top-menu {
     background-color: black;
-    
     min-height: 31px;
 }
 
 .navbar {
     line-height: 20px;
+    background-color: white!important;
 }
 
 .nav-item {
@@ -481,6 +476,9 @@ table, th, td {
     padding: 10px 10px 10px 10px;
     max-height:200px;
     height:200px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 .gallery-image:hover {
@@ -489,5 +487,10 @@ table, th, td {
 }
 
 
-.modal-dialog {width:600px;}
-.thumbnail {margin-bottom:6px;}
+.modal-dialog {
+    width:600px;
+}
+.thumbnail {
+    margin-bottom:6px;
+}
+
