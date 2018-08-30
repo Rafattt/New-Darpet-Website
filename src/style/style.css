@@ -145,7 +145,6 @@ a:link {
 
 .main-page-text {
     text-align:center;
-
 }
 
 #main-page-interior-text {
@@ -180,6 +179,8 @@ a:link {
 
 .main-banners {
     height:100%!important;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
 }
 
 
