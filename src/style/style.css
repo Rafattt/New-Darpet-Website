@@ -353,6 +353,7 @@ a:link {
 
 .prod-image {
     max-width:100%;
+    padding-top:40px;
 }
 
 .core-avail-desc {
