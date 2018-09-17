@@ -7,6 +7,7 @@
 })();
 
 jQuery(document).ready(function() {
+	new WOW().init();
 	jQuery('.tabs .tab-links a').on('click', function(e) {
 		var currentAttrValue = jQuery(this).attr('href');
 
