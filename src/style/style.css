@@ -274,6 +274,8 @@ a:link {
 .cat-pic {
     transition: transform .2s;
     margin-bottom: 5px;
+    width:255px;
+    height:300px;
 }
 
 .cat-pic:hover {
