@@ -292,6 +292,21 @@ a:link {
     background-color: black;
 
     /* Set a specific height */
+    height: auto;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paralax-steel {
+    /* The image used */
+    background-image: url("/src/images/product-back-steel.png");
+    background-color: black;
+
+    /* Set a specific height */
     height: auto;; 
 
     /* Create the parallax scrolling effect */
@@ -300,6 +315,25 @@ a:link {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.paralax-molding {
+    /* The image used */
+    background-image: url("/src/images/23013.png");
+    background-color: black;
+
+    /* Set a specific height */
+    height: auto;; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
 
 .inter-desc-container {
     height: auto;
