@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="src/style/bootstrap.css">
   <link rel="stylesheet" href="src/style/animate.css">
   <link rel="stylesheet" href="src/style/style.css">
+  <link rel="stylesheet" href="src/style/owl.carousel.min.css">
+  <link rel="stylesheet" href="src/style/owl.theme.default.min.css">
 
 
   <!--[if lt IE 9]>
@@ -25,14 +27,16 @@
         
     </header>
     <!--Slideshow-->
+    
     <div id="main-slideshow" class="row">
-      <div id="slide-container" class="col-md-12" >
-          <img id="header-slide" class="img-fluid" src="src/images/sample.jpg"  alt="sample">
-          <!-- SLIDESHOW CONTROLS, JAVASCRIPT TO DO
-          <img id="slideshow-right-button" class="slideshow-controls"  src="src/images/slideshowcontrols/arrow_right.svg">
-          <img id="slideshow-left-button" class="slideshow-controls"  src="src/images/slideshowcontrols/arrow_left.svg">
-          -->
-      </div>
+        <div class="owl-carousel owl1 owl-theme">
+            <div><img class="img-fluid w-100 slide" src="src/images/slides/2-panel-shaker-stock-sale-2-com.jpg"></div>
+            <div><img class="img-fluid w-100 slide" src="src/images/slides/fire-rated-steel-2-com.jpg"></div>
+            <div><img class="img-fluid w-100 slide" src="src/images/slides/barndoorscom.jpg"></div>
+            <div><img class="img-fluid w-100 slide" src="src/images/slides/3-panel-equal-stock-com.jpg"></div>
+            <div><img class="img-fluid w-100 slide" src="src/images/slides/1-panel-flat-stock-sale-com.jpg"></div>
+          </div>
+      
       
     </div>
     <!--Slideshow ends-->
@@ -79,7 +83,7 @@
           </div>
         
         <div class="col-md-3">
-          <img class="front-page-ani wow fadeInRight"  data-wow-delay="1s" data-wow-duration="2s" src="src/images/int2.png">
+          <img class="front-page-ani wow fadeIn"  data-wow-delay="1s" data-wow-duration="2s" src="src/images/int2.png">
         </div>
         <div class="col-md-1">
               
@@ -89,7 +93,14 @@
         
       </div>
 
-         
+      <div class=" owl-carousel owl2">
+          <div><a href="/content/primed-doors/2-panel-shaker-primed-6-8.html"> <img class="img-fluid w-100" src="src/images/front%20carousel/2-panel-shaker-pro.jpg"></a></div>
+          <div><img class="img-fluid w-100" src="src/images/front%20carousel/2-Panel-Square-Carrara.jpg"></div>
+          <div><img class="img-fluid w-100" src="src/images/front%20carousel/11green_026-2.jpg"></div>
+          <div><img class="img-fluid w-100" src="src/images/front%20carousel/15-lite-pro.jpg"></div>
+          <div><img class="img-fluid w-100" src="src/images/front%20carousel/bellagio-pro.jpg"></div>
+        </div>   
+
       <div class="row carousel-1">
         <div class="col-md-3 front-carousel" id="s-1" onmouseover="carouselHover(this)"  onmouseout="carouselHoverOut(this)">
           <a target="_blank" href="#">
@@ -170,7 +181,7 @@
               
         </div>
             <div class="col-md-3">
-              <img class="front-page-ani wow fadeInLeft" data-wow-delay="1s" data-wow-duration="2s" src="src/images/ext.png">
+              <img class="front-page-ani wow fadeIn" data-wow-delay="1s" data-wow-duration="2s" src="src/images/ext.png">
             </div>
             <div class="col-md-7">
                 <h1 class="title" id="exterior-title">Exterior Doors</h1>
@@ -252,7 +263,7 @@
          <!--TRIMS-->
          <div  class="main-page-categories row">
       
-            <img  class="img-fluid w-100 main-banners interior-doors-main"  src="src/images/trim1.png">
+            <img  class="img-fluid w-100 main-banners interior-doors-main"  src="src/images/trim1.jpg">
          
           <div class="col-md-1">
            
@@ -271,7 +282,7 @@
               </div>
             
             <div class="col-md-3">
-              <img class="front-page-ani wow fadeInRight"  data-wow-delay="1s" data-wow-duration="2s"   src="src/images/trim21.png">
+              <img class="front-page-ani wow fadeIn"  data-wow-delay="1s" data-wow-duration="2s"   src="src/images/trim21.png">
           
             </div>
             <div class="col-md-1">
@@ -339,36 +350,7 @@
         
           
          <!--TRIMS ENDS-->
-         <!--WINDOWS-->
-         <div id="exterior-doors" class="main-page-categories row">
-            <img id="exterior-doors-main" class="img-fluid w-100 main-banners"  src="src/images/win1.jpg">
-           
-            <div class="col-md-1">
-                  
-            </div>
-                <div class="col-md-3">
-                  <img class="front-page-ani wow fadeInLeft" data-wow-delay="1s" data-wow-duration="2s"  src="src/images/wind1.png">
-                </div>
-                <div class="col-md-7">
-                    <h1 class="title" id="exterior-title">Windows</h1>
-                    <p id="main-page-exterior-text" class="main-page-text">When you want windows and doors that offer extraordinary artistry and consistent reliability,
-                       select JELD-WEN Custom Windows.
-                       Each one is sure to enhance the luxury of your home. Our experience staff is here to guide you every step of the way. 
-                      </p>
-                      <div class="row btn-front">
-                        <div class="col-md-5"></div>
-                          <button type="button" class="btn btn-dark col-md-2">View More</button>
-                        <div class="col-md-5"></div>
-                      </div>
-                </div>
-                <div class="col-md-1">
-                  
-                </div>
-            
-           
-              
-            </div>
-         <!--WINDOWS ENDS-->
+         
        
          <footer id="footer" class="row">
            
@@ -384,6 +366,7 @@
   <script src="src/js/bootstrap.min.js"></script>
   <script src="src/js/slideshow.js"></script>
   <script src="src/js/carousel.js"></script>
+  <script src="src/js/owl.carousel.min.js"></script>
   <script src="src/js/wow.min.js"></script>
   <script src="src/js/script.js"></script>
  

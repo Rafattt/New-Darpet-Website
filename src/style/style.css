@@ -73,7 +73,8 @@ a:link {
 
 #main-slideshow {
     background-color: black;
-    height:100%!important;
+    
+    overflow: hidden;
     
 }
 
@@ -116,6 +117,14 @@ a:link {
     transition: 1s;
 }
 */
+.slide {
+    margin-left: 0 auto!important;
+    margin-right: 0 auto!important;
+    text-align: center;
+    width:100%;
+}
+
+
 
 .main {
     background-color: white;
@@ -153,6 +162,7 @@ a:link {
 
 .front-page-ani {
     margin-top:-400px;
+    overflow:hidden!important;
 }
 
 .front-carousel {
