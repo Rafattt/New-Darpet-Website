@@ -15,7 +15,7 @@ a:link {
 }
 
 .container-fluid {
-   background-color: #ddd;
+    background-color: #ddd;
  }
 
 
@@ -63,6 +63,9 @@ a:link {
 .top-menu-item-right {
     color: white;
    
+}
+.top-menu-item-right a {
+    color: white;
 }
 
 .nav-link {
@@ -218,6 +221,36 @@ a:link {
     transition: .5s ease-in-out;
     color:black;
     font-weight: bold;
+}
+
+.owl2 {
+    background-color: white;
+    margin-left: 0 auto;
+    margin-right:0 auto;
+    border-top: solid white 2px;
+    border-bottom: solid white 2px;
+}
+
+.owl3 {
+    background-color: black;
+    margin-left: 0 auto;
+    margin-right:0 auto;
+}
+
+.trans {
+    background-color: white;
+    border: solid 1px black;
+    padding: 30px 0px;
+  margin: 0px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.car-owl2 {
+    width:100%;
 }
 
 #footer {
@@ -545,3 +578,10 @@ table, th, td {
     background-color: lightgrey;
 }
 
+.policy-title {
+    text-align: center;
+}
+
+.hours {
+    text-align: center;
+}

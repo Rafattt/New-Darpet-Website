@@ -9,12 +9,13 @@
 jQuery(document).ready(function() {
 	$(".owl1").owlCarousel({
 		loop:true,
-	margin:10,
+	margin:0,
 	autoplay:true,
     autoplayTimeout:5000,
 	autoplayHoverPause:false,
 	nav: false,
 	dots: false,
+	autoWidth: false,
     responsiveClass:true,
 		responsive:{
 			0:{
@@ -35,8 +36,35 @@ jQuery(document).ready(function() {
 
 	$('.owl2').owlCarousel({
 		loop:true,
-		margin:10,
-		nav:true,
+		stagePadding: 0,
+		margin:5,
+		nav:false,
+		dots: false,
+		autoplay:true,
+    	autoplayTimeout:5000,
+		autoplayHoverPause:false,
+		responsive:{
+			0:{
+				items:1
+			},
+			600:{
+				items:3
+			},
+			1000:{
+				items:4
+			}
+		}
+	})
+
+	$('.owl3').owlCarousel({
+		loop:true,
+		stagePadding: 0,
+		margin:0,
+		nav:false,
+		dots: false,
+		autoplay:true,
+    	autoplayTimeout:5000,
+		autoplayHoverPause:false,
 		responsive:{
 			0:{
 				items:1
