@@ -1,12 +1,17 @@
 "use strict";
+
 (function loadHeader(){
-    let rootLocation = document.location.hostname;
-    console.log(rootLocation);
-    $("#header").load("/header.html");
-    $("#footer").load("/footer.html");
+	let rootLocation = document.location.hostname;
+	$("#header").load("/header.html");
+	$("#footer").load("/footer.html");
 })();
 
 jQuery(document).ready(function() {
+
+	
+
+	
+
 	$(".owl1").owlCarousel({
 		loop:true,
 	margin:0,
@@ -54,6 +59,7 @@ jQuery(document).ready(function() {
 				items:4
 			}
 		}
+		
 	})
 
 	$('.owl3').owlCarousel({
@@ -77,6 +83,7 @@ jQuery(document).ready(function() {
 			}
 		}
 	})
+	
 
 	new WOW().init();
 	jQuery('.tabs .tab-links a').on('click', function(e) {
@@ -92,8 +99,6 @@ jQuery(document).ready(function() {
 	});
 });
 
-($(function() {
-	$('.lazy').Lazy();
-}))();
+
 
 
