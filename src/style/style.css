@@ -63,12 +63,14 @@ a:link {
 .top-menu-item-left {
     color: white;
     text-align:left;
+    line-height:31px;
     
 }
 
 .top-menu-item-right {
     color: white;
     text-align:right;
+    line-height:31px;
    
 }
 .top-menu-item-right a {
@@ -178,6 +180,10 @@ a:link {
     height:100%!important;
     border-top: 1px black solid;
     border-bottom: 1px black solid;
+}
+
+.doors-main {
+    border-top: solid 14px white;
 }
 
 
