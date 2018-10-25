@@ -1,0 +1,59 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+        <meta http-equiv="refresh" content="5;url=http://darpet.com/" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us - Darpet Doors Chicago</title>
+  <meta name="description" content="Moldings and Millwork - Darpet Doors Chicago">
+  <meta name="author" content="Rafal Kmiecik">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="/src/style/bootstrap.css">
+  <link rel="stylesheet" href="/src/style/animate.css">
+  <link rel="stylesheet" href="/src/style/style.css">
+
+
+
+</head>
+
+<body>
+        <div class="container-fluid" id="form-success">
+                <div class="row">'
+                        <h1 id="success-text" class="col-md-8 offset-2">Contact form successfully submitted.<br> Thank you, we will get back to you soon!</h1>
+                </div>
+                <div class="row">'
+                        <h4 id="redd-text" class="col-md-8 offset-2">You will be reddirected to homepage in 5s</h4>
+                </div>
+                   
+    
+            </div>
+           <script>
+           countDown();
+    function countDown(){
+        let times = 5;
+        setInterval(function () {
+            times = times-1;
+            if(times>=0){
+                document.getElementById('redd-text').innerHTML = 'You will be reddirected to homepage in '+times+'s';
+            } else {
+                return
+            }
+            
+        }, 1000);
+        
+    }</script>
+
+    
+    
+    
+        <!--/CONTAINER-FLUID-->
+        <script src="/src/js/jquery.js"></script>
+        <script src="/src/js/popper.min.js"></script>
+        <script src="/src/js/bootstrap.min.js"></script>     <script src="/src/js/owl.carousel.min.js"></script>
+        <script src="/src/js/wow.min.js"></script>
+        <script src="/src/js/script.js"></script>
+</body>
+
+</html>

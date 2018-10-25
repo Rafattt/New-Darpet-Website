@@ -16,10 +16,10 @@ jQuery(document).ready(function() {
 		loop:true,
 	margin:0,
 	autoplay:true,
-    autoplayTimeout:5000,
+    autoplayTimeout:7000,
 	autoplayHoverPause:false,
 	nav: false,
-	dots: false,
+	dots: true,
 	autoWidth: false,
     responsiveClass:true,
 		responsive:{
@@ -33,7 +33,7 @@ jQuery(document).ready(function() {
 			},
 			1000:{
 				items:1,
-				nav:false,
+				nav:true,
 				loop:true
 			}
 		}
