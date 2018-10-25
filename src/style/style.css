@@ -103,30 +103,7 @@ a:link {
     margin-right: auto;
     max-width:1152px;
 }
-/* SLIDESHOW CONTROLS, JAVASCRIPT TO DO
-.slideshow-controls {
-    height: 120px;
-    position:relative;
-    margin-top:-350px;
-    z-index:2;
-}
 
-.slideshow-controls:hover {
-    cursor:pointer;
-}
-
-#slideshow-right-button {
-    float:right;  
-    opacity:0;
-    transition: 1s;
-}
-
-#slideshow-left-button {
-    float:left;  
-    opacity:0;
-    transition: 1s;
-}
-*/
 .slide {
     margin-left: 0 auto!important;
     margin-right: 0 auto!important;
