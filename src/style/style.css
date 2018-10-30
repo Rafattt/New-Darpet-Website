@@ -301,6 +301,7 @@ a:link {
 
 .sub-title {
     color:white;
+    padding-top: 5px;
     text-align: center;
     margin-left: auto;
     margin-right:auto;
@@ -701,4 +702,18 @@ table, th, td {
 
 .hardware-click-text {
     text-align: center;
+}
+
+.emtek-selector {
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.barn-door-gal{
+    border: solid 1px black;
+}
+
+.videos-container {
+    background-color: rgb(29, 29, 29);
+    padding-bottom: 20px;
 }
