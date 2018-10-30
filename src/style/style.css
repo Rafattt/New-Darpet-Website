@@ -21,6 +21,10 @@ a:link {
 
 .container-fluid {
     background-color: #ddd;
+    min-height: 70%!important;
+    min-height: -webkit-calc(100% - 50px);
+    min-height: -moz-calc(100% - 50px);
+    min-height: calc(100% - 50px)!important;
  }
 
 
@@ -693,4 +697,8 @@ table, th, td {
 
 .hardware-back {
     background-color: white;
+}
+
+.hardware-click-text {
+    text-align: center;
 }
