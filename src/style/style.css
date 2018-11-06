@@ -346,6 +346,20 @@ a:link {
 
 .paralax-interior {
     /* The image used */
+    background-image: url("/src/images/product-back-fire-1.jpg");
+    background-color: black;
+
+    /* Set a specific height */
+    height: auto;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paralax-fire {
     background-image: url("/src/images/int-back.jpg");
     background-color: black;
 
@@ -417,6 +431,8 @@ a:link {
     background-color: rgba(255,255,255,0.7);
 
 }
+
+
 
 .inter-prod-title {
     text-align: center;
