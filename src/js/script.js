@@ -97,6 +97,24 @@ jQuery(document).ready(function() {
 
 		e.preventDefault();
 	});
+
+//invisible hinges switch
+$(function() {
+	$('#hinges-but').click(function(){
+		if($("#regular-invisible-hinges-title").text() == 'Regular Hinges'){
+			$("#inv-hinges").attr('src',"/src/images/invisible-hinges.jpg");
+			$("#regular-invisible-hinges-title").text('Invisible Hinges');
+			$('#hinges-but').text('Switch to Regular Hinges');
+		} else {
+			$("#inv-hinges").attr('src',"/src/images/regular-hinges.jpg");
+			$("#regular-invisible-hinges-title").text('Regular Hinges');
+			$('#hinges-but').text('Switch to Invisible Hinges');
+		}
+	  
+	  return false;
+	});
+   });
+
 });
 
 

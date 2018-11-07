@@ -308,6 +308,20 @@ a:link {
     font-family: 'Lato', sans-serif;
 }
 
+.sub-title-container-hinges {
+    background-color: #000000;
+}
+
+.sub-title-hinges {
+    color:white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+    font-family: 'Lato', sans-serif;
+}
+
 .products-catalog {
     margin-top:10px;
     background-color: #ddd;
@@ -347,6 +361,20 @@ a:link {
 .paralax-interior {
     /* The image used */
     background-image: url("/src/images/product-back-fire-1.jpg");
+    background-color: black;
+
+    /* Set a specific height */
+    height: auto;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paralax-inv-hinges {
+    background-image: url("/src/images/invisible-hinges-back.jpg");
     background-color: black;
 
     /* Set a specific height */
@@ -430,6 +458,13 @@ a:link {
     margin-bottom:60px;
     background-color: rgba(255,255,255,0.7);
 
+}
+
+.inv-hinges-desc-container {
+    height: auto;
+    margin-top:80px;
+    margin-bottom:60px;
+    color: white;
 }
 
 
@@ -733,3 +768,4 @@ table, th, td {
     background-color: rgb(29, 29, 29);
     padding-bottom: 20px;
 }
+
