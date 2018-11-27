@@ -769,3 +769,9 @@ table, th, td {
     padding-bottom: 20px;
 }
 
+.notice {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+}
+
