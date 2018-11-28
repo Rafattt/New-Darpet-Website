@@ -433,6 +433,21 @@ a:link {
     background-size: cover;
 }
 
+.paralax-fiber {
+    /* The image used */
+    background-image: url("/src/images/product-back.jpg");
+    background-color: black;
+
+    /* Set a specific height */
+    height: auto;; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .paralax-molding {
     /* The image used */
     background-image: url("/src/images/23013.png");
@@ -455,6 +470,14 @@ a:link {
 .inter-desc-container {
     height: auto;
     margin-top:130px;
+    margin-bottom:60px;
+    background-color: rgba(255,255,255,0.7);
+
+}
+
+.fiber-desc-container {
+    height: auto;
+    margin-top:80px;
     margin-bottom:60px;
     background-color: rgba(255,255,255,0.7);
 
@@ -498,6 +521,7 @@ a:link {
     font-size:18px;
 }
 
+
 .spec-btn {
     margin-top:10px;
     margin-bottom:10px;
@@ -516,6 +540,32 @@ a:link {
 .prod-image {
     max-width:100%;
     padding-top:40px;
+}
+
+.prod-image-fiber {
+    max-width:100%;
+    padding-top:100px;
+}
+
+.fiber-more {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.fiber-warranty {
+    text-align: center;
+    font-size: 1.1em;
+    color:red;
+    font-weight: bold;
+}
+
+.steel-spec-title {
+    margin-top:5px;
+}
+
+.back {
+    margin-bottom: 10px;
+    width:100%;
 }
 
 .core-avail-desc {
@@ -659,7 +709,13 @@ table, th, td {
     margin-bottom:6px;
 }
 .steel-doors-specification {
-    background-color: lightgrey;
+
+}
+
+.fiber-doors-specification {
+    text-align: center;
+    font-family: 'Cantata One', serif;
+
 }
 
 .policy-title {
